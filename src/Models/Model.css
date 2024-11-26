@@ -1,0 +1,32 @@
+.spinner{
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background:#111;
+    border-radius: 50%;
+    animation: rotate-spinner 1s infinite linear;
+}
+.inner-spinner{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius:50%;
+}
+.inner-spinner span{
+    position: relative;
+    top: 21px;
+    right: 20px;
+    padding: 4px 40px;
+    background-color:#fff;
+}
+
+@keyframes rotate-spinner {
+    0%{
+        transform: rotate(0deg);
+    }100%{
+        transform: rotate(360deg);
+    }
+}

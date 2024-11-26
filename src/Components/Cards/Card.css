@@ -1,0 +1,37 @@
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 15px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-duration {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .card-level {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .card-price {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .card-price::before {
+    content: '₹';
+  }
+  
